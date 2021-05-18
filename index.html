@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="TCPFlow">
+    <meta name="description" content="Currency cross-rates tables and converter.">
+    <link rel="stylesheet" href="dependencies/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="icon" href="tabtitile.png">
+    <link rel="shortcut icon" href="tabtitile.png">
+
+</head>
+
+<body>
+
+    <script src="dependencies/jquery-3.1.1/js/jquery-3.1.1.min.js"></script>
+    <script src="dependencies/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="dependencies/accounting-js-open-exchange-rates/accounting.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!-- START NAVBAR -->
+    <nav id="main-nav">
+        <!--START BOOTSTRAP DROPDOWN -->
+        <span class="dropdown" id="contactMenu">
+      <button class="btn-default dropdown-toggle nav-drop-btn visible-xs-inline" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Contact
+      <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="dropdownToggle">
+        </ul>
+        </span>
+
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START MAIN HEADER & LOADING ICON  01 change colors or font on main tab tilte-->
+    <header id="main-header" class="center">
+        <h1>Quickly Convert Any Currency</h1>
+    </header>
+    <section class="loading center">
+        <i class="fa fa-spinner fa-spin fa-5x fa-fw"></i>
+        <h4>Please Wait</h4>
+    </section>
+    <!-- END MAIN HEADER & LOADING ICON -->
+    <!-- START CONVERTER SECTION -->
+    <section class="converter center" id="large-header">
+        <canvas id="demo-canvas"></canvas>
+        <h1 class="main-title">Quickly Convert <span class="thin">Any Currency</span></h1>
+
+        <form action="">
+            <label for="from-currency-amount">Amount To Convert</label>
+
+            <br>
+            <br>
+            <div>
+
+                <input class="form-in inline-md center" type="text" id="from-currency-amount" placeholder="1 000.00" tabindex="1" />
+                <div class="styled-select inline-md">
+                    <select id="from-currency" class="currencylist" tabindex="2">
+          </select>
+                </div>
+                <br>
+                <br>
+            </div>
+
+            <label for="to-currency">To</label>
+
+            <div>
+                <br>
+                <input class="form-in inline-md center" type="text" id="answer-currency-amount" placeholder="1 000.00" tabindex="5" />
+                <div class="styled-select inline-md">
+                    <select id="to-currency" class="currencylist" tabindex="3">
+        </select>
+                </div>
+                <br>
+                <br>
+                <br><br>
+            </div>
+            <button id="convert-btn" class="form-btn" tabindex="4">Convert</button>
+            <br>
+            <br><br><br> <br><br><br>
+        </form>
+
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed
+    </section>
+
+
+    <!-- END CONVERTER SECTION -->
+
+    <!-- START FOOTER -->
+    <footer id="main-footer">
+
+
+    </footer>
+
+    <!-- END FOOTER -->
+
+    <!-- Scripts -->
+
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/demo-1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+
+    <!-- START NAVBAR -->
+    <nav id="main-nav">
+        <!--START BOOTSTRAP DROPDOWN -->
+        <span class="dropdown" id="contactMenu">
+      <button class="btn-default dropdown-toggle nav-drop-btn visible-xs-inline" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Contact
+      <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="dropdownToggle">
+            <!--
+      -->
+            <li class="menu-item"><a href="Path"><i class="fa fa-folder-open" aria-hidden="true"></i> Coming Soon</a></li>
+            <!--
+      -->
+            <li class="menu-item"><a class="linkedin-link" href="Path"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Coming soon</a></li>
+            <!--
+        -->
+            <li class="menu-item"><a href="Path"><i class="fa fa-github-square" aria-hidden="true"></i> Coming soon</a></li>
+            <!--
+      -->
+        </ul>
+        <!--
+    -->
+        </span>
+        <!--
+     END  BOOTSTRAP DROPDOWN (comment above prevent inline white spaces)
+  -->
+        <span><i class="fa fa-btc" aria-hidden="true"></i> 1 = <i class="fa fa-usd" aria-hidden="true"></i> <span id="bitcoin-price"><i class="fa fa-spinner fa-pulse fa-fw"></i></span></span>
+    </nav>
+    */
+    <!-- END NAVBAR -->
